@@ -34,7 +34,7 @@ body{
     /* border: 2px solid red; */
     width: 20rem;
     height: fit-content;
-    height: 40rem;
+    height: 44rem;
    position: relative;
 
 }
@@ -211,10 +211,36 @@ margin: .7rem 0rem;
         padding-right: 2rem;
         text-align: center;
     }
+
+    .logo img{
+        width: 8rem;
+        height: 8.3rem;
+    }
+    .m-logo{
+        width: 8.6rem;
+        height: 8.9rem;
+    }
+    .logo{
+        width: 8rem;
+        height: 8.3rem;
+    }
+    .heading{
+        padding-right: 2rem;
+        width: 100%;
+        margin: 1rem  auto;
+    }
+
 }
-@media screen  and (max-width:432px)
+@media screen  and (max-width:452px)
 {
     .left-content::after{
         left: 34vw;
     }
+    .left-content::after{
+        display: none;
+    }
+    .left-content{
+        box-shadow: 2px 2px 10px rgb(209, 209, 209);
+    }
+    
 }

@@ -34,7 +34,7 @@ body{
     /* border: 2px solid red; */
     width: 20rem;
     height: fit-content;
-    height: 44rem;
+    height: 100vh;
    position: relative;
 
 }
